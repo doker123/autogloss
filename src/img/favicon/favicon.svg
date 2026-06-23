@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Фон: скругленный синий квадрат -->
+  <rect width="100" height="100" rx="20" fill="#0b0f19"/>
+  <!-- Текст: белая буква по центру -->
+  <text x="50" y="65" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="#FFFFFF" text-anchor="middle">А</text>
+</svg>
