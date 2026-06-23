@@ -1024,3 +1024,152 @@ a.contacts__info-value:hover {
         padding: 36px 0 24px;
     }
 }
+
+@media (max-width: 320px) {
+    .header__wrapper {
+        height: 56px;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .theme-toggle {
+        width: 34px;
+        height: 34px;
+        font-size: 1rem;
+    }
+
+    .burger span {
+        width: 20px;
+    }
+
+    .hero {
+        min-height: 65vh;
+    }
+
+    .hero__title {
+        font-size: 1.3rem;
+    }
+
+    .hero__subtitle {
+        font-size: 0.82rem;
+        margin-bottom: 24px;
+    }
+
+    .hero__buttons .btn {
+        max-width: 100%;
+        padding: 11px 20px;
+        font-size: 0.88rem;
+    }
+
+    .section-title {
+        font-size: 1.25rem;
+    }
+
+    .section-subtitle {
+        font-size: 0.85rem;
+        margin-bottom: 24px;
+    }
+
+    .services,
+    .gallery,
+    .reviews,
+    .contacts {
+        padding: 40px 0;
+    }
+
+    .services__item {
+        padding: 20px 16px;
+    }
+
+    .services__item-title {
+        font-size: 1rem;
+    }
+
+    .services__item-desc {
+        font-size: 0.85rem;
+    }
+
+    .services__price {
+        font-size: 0.95rem;
+    }
+
+    .ba-slider {
+        aspect-ratio: 1 / 1;
+    }
+
+    .ba-slider__label {
+        font-size: 0.6rem;
+        padding: 2px 6px;
+    }
+
+    .ba-slider__handle::before,
+    .ba-slider__handle::after {
+        width: 22px;
+        height: 22px;
+    }
+
+    .ba-slider__handle::after {
+        font-size: 0.5rem;
+    }
+
+    .reviews__item {
+        padding: 16px;
+    }
+
+    .reviews__text {
+        font-size: 0.82rem;
+        line-height: 1.5;
+    }
+
+    .contact-form__input,
+    .contact-form__textarea {
+        padding: 10px 12px;
+        font-size: 0.85rem;
+    }
+
+    .contact-form__label {
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        padding: 11px 20px;
+        font-size: 0.88rem;
+    }
+
+    .contacts__info-label {
+        font-size: 0.75rem;
+    }
+
+    .contacts__info-value {
+        font-size: 0.85rem;
+    }
+
+    #map {
+        height: 180px;
+    }
+
+    .footer__heading {
+        font-size: 0.88rem;
+    }
+
+    .footer__list a,
+    .footer__list li {
+        font-size: 0.82rem;
+    }
+
+    .footer__copy {
+        font-size: 0.78rem;
+    }
+
+    .footer__social {
+        width: 36px;
+        height: 36px;
+    }
+
+    .footer__social svg {
+        width: 16px;
+        height: 16px;
+    }
+}
